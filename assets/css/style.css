@@ -4645,3 +4645,238 @@ body {
   color: #c27b7f;
   margin-bottom: 10px;
 }
+/* ==========================
+   About Page Mobile Fixes
+========================== */
+
+/* Prevent horizontal scroll issues */
+.about-page-image-wrap,
+.about-card-grid,
+.about-card,
+.about-service-box,
+.fit-box,
+.exposure-box,
+.philosophy-box,
+.work-style-box,
+.about-cta-box,
+.mini-card {
+  overflow: hidden;
+}
+
+/* Better image control */
+.about-page-main-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tablet fixes */
+@media (max-width: 991px) {
+  .about-page-image-wrap {
+    padding-right: 0;
+    max-width: 100%;
+  }
+
+  .about-page-image-wrap::after {
+    right: 10px;
+    top: 20px;
+    width: 88%;
+    height: 95%;
+  }
+
+  .about-page-badge {
+    left: 15px;
+    bottom: 15px;
+    width: 85px;
+    height: 85px;
+    padding: 10px;
+  }
+
+  .about-page-badge span {
+    font-size: 22px;
+  }
+
+  .about-page-badge small {
+    font-size: 11px;
+  }
+
+  .section-title-left h2,
+  .section-title-center h2 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+
+  .about-card,
+  .about-service-box,
+  .fit-box,
+  .exposure-box,
+  .philosophy-box,
+  .work-style-box,
+  .about-cta-box,
+  .mini-card {
+    padding: 25px 20px;
+  }
+}
+
+/* Mobile fixes */
+@media (max-width: 767px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+
+  .hero__padding {
+    padding-top: 150px;
+    padding-bottom: 70px;
+  }
+
+  .blog-title h1,
+  .display-3 {
+    font-size: 38px !important;
+    line-height: 1.2;
+  }
+
+  .section-title-left,
+  .section-title-center {
+    margin-bottom: 30px;
+  }
+
+  .section-title-left h2,
+  .section-title-center h2,
+  .display-6 {
+    font-size: 30px !important;
+    line-height: 1.25;
+  }
+
+  .section-title-left span,
+  .section-title-center span,
+  .badge-text {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .about-page-image-wrap {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .about-page-image-wrap::after {
+    display: none;
+  }
+
+  .about-page-main-img {
+    border-radius: 16px;
+  }
+
+  .about-page-badge {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    margin: 18px auto 0;
+    width: 90px;
+    height: 90px;
+  }
+
+  .about-page-badge span {
+    font-size: 24px;
+  }
+
+  .about-page-badge small {
+    font-size: 11px;
+  }
+
+  .about-point-list li {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .about-card-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .about-card,
+  .about-service-box,
+  .fit-box,
+  .exposure-box,
+  .philosophy-box,
+  .work-style-box,
+  .about-cta-box,
+  .mini-card {
+    padding: 22px 18px;
+    border-radius: 16px;
+  }
+
+  .about-card-icon,
+  .about-service-box i,
+  .fit-box i,
+  .mini-card i,
+  .philosophy-item i {
+    width: 55px;
+    height: 55px;
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  .about-card h4,
+  .about-service-box h4,
+  .fit-box h5,
+  .mini-card h5,
+  .philosophy-box h4 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .philosophy-item {
+    gap: 12px;
+    padding: 15px 0;
+  }
+
+  .about-cta-box {
+    padding: 35px 20px;
+  }
+
+  blockquote {
+    padding: 15px 18px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+}
+
+/* Small mobile extra fixes */
+@media (max-width: 480px) {
+  .blog-title h1,
+  .display-3 {
+    font-size: 32px !important;
+  }
+
+  .section-title-left h2,
+  .section-title-center h2,
+  .display-6 {
+    font-size: 26px !important;
+  }
+
+  .about-card h4,
+  .about-service-box h4,
+  .fit-box h5,
+  .mini-card h5,
+  .philosophy-box h4 {
+    font-size: 22px;
+  }
+
+  .about-page-badge {
+    width: 82px;
+    height: 82px;
+  }
+
+  .about-page-badge span {
+    font-size: 22px;
+  }
+
+  .about-page-badge small {
+    font-size: 10px;
+  }
+
+  .divider-traingle {
+    width: 140px;
+  }
+}
