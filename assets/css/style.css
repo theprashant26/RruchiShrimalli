@@ -2280,6 +2280,10 @@ textarea.error {
   overflow: hidden;
 }
 .blog__single-post__image img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: center;
   transition: 0.3s;
 }
 .blog__single-post__body {
@@ -5001,4 +5005,71 @@ body {
     font-size: 15px;
     line-height: 1.7;
   }
+}
+/* ========== Lead form block (Stress Test CTA form) ========== */
+.lead-form-block {
+  background-color: #f5ebe6;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0;
+}
+.bg-one .lead-form-block { background-color: #ffffff; }
+.lead-form-heading {
+  font-size: 1.25rem;
+  margin-bottom: 25px;
+  color: #2f4858;
+  line-height: 1.45;
+  font-weight: 700;
+}
+.lead-form .form-section { margin-bottom: 22px; }
+.lead-form .lead-label { display: block; margin-bottom: 10px; color: #2f4858; }
+.lead-form .lead-radio { margin: 6px 0; }
+.lead-form .lead-radio label { display: flex; align-items: flex-start; gap: 10px; cursor: pointer; line-height: 1.5; }
+.lead-form .lead-radio input[type="radio"] { margin-top: 5px; flex-shrink: 0; accent-color: #c27b7f; }
+.lead-form input[type="text"],
+.lead-form input[type="email"],
+.lead-form input[type="url"] {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-bottom: 0;
+  background-color: #ffffff;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+.bg-one .lead-form input[type="text"],
+.bg-one .lead-form input[type="email"],
+.bg-one .lead-form input[type="url"] { background-color: #f5ebe6; }
+.lead-form input:focus { outline: none; border-bottom: 2px solid #c27b7f; }
+
+/* ========== Lead form success / error messages ========== */
+.lead-form-success {
+  background-color: #e8f5e9;
+  border: 1px solid #b9dcc1;
+  color: #1d4d2a;
+  padding: 28px 30px;
+  border-radius: 8px;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.lead-form-success i {
+  color: #2e7d32;
+  font-size: 28px;
+  flex-shrink: 0;
+}
+.lead-form-success strong { color: #1b3a23; }
+
+.lead-form-error {
+  background-color: #fdecea;
+  border: 1px solid #f5c6cb;
+  color: #7a1f24;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  line-height: 1.4;
 }

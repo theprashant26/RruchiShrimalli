@@ -40,6 +40,48 @@
     <!-- Default color version -->
     <link rel="stylesheet" href="assets/css/fonts/philosopher-poppins.css" id="font-switch" />
 
+
+    <!-- ========== Entity / Methodology Schema (sitewide) ========== -->
+    <meta name="keywords" content="Generative Engine Optimization, GEO, Answer Engine Optimization, AEO, Artificial Intelligence Optimization, AIO, AI Discovery, Content Governance, Two-Layered Content Audit, Conversion Auditing, Conversion Audit, Time-to-Value, TTV, 15-Second Rule, Topical Authority, Category Ownership, Rruchi Shrimalli, Content Strategist, Revenue Systems Architect" />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rruchi Shrimalli",
+  "url": "https://rruchi.com/",
+  "jobTitle": "Content Strategist & Revenue Systems Architect",
+  "description": "Content Strategist & Revenue Systems Architect with 27+ years of expertise in Generative Engine Optimization (GEO), Answer Engine Optimization (AEO), Artificial Intelligence Optimization (AIO), Content Governance, the Two-Layered Content Audit, Conversion Auditing, Time-to-Value (TTV), the 15-Second Rule, and Topical Authority / Category Ownership.",
+  "knowsAbout": [
+    "Generative Engine Optimization (GEO)",
+    "Answer Engine Optimization (AEO)",
+    "Artificial Intelligence Optimization (AIO)",
+    "AI Discovery",
+    "Content Governance",
+    "Two-Layered Content Audit",
+    "Conversion Auditing",
+    "Conversion Audit",
+    "Time-to-Value (TTV)",
+    "The 15-Second Rule",
+    "Topical Authority",
+    "Category Ownership"
+  ],
+  "sameAs": [
+    "https://www.facebook.com/rruchishrimalli1",
+    "https://x.com/thetalentdose",
+    "https://www.linkedin.com/in/rruchi-shrimalli/",
+    "https://www.instagram.com/rruchishrimalli1/"
+  ],
+  "makesOffer": [
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Generative Engine Optimization (GEO)","provider":{"@type":"Person","name":"Rruchi Shrimalli"}}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Answer Engine Optimization (AEO)","provider":{"@type":"Person","name":"Rruchi Shrimalli"}}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Artificial Intelligence Optimization (AIO)","provider":{"@type":"Person","name":"Rruchi Shrimalli"}}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Two-Layered Content Audit","provider":{"@type":"Person","name":"Rruchi Shrimalli"}}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Conversion Auditing","provider":{"@type":"Person","name":"Rruchi Shrimalli"}}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Content Governance","provider":{"@type":"Person","name":"Rruchi Shrimalli"}}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"1-Month Content System Stress Test","provider":{"@type":"Person","name":"Rruchi Shrimalli"}}}
+  ]
+}
+</script>
 </head>
 
 <body>
@@ -68,6 +110,9 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="stress-test.html">Stress Test</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="testimonial.html">Testimonials</a>
@@ -146,8 +191,8 @@
                     <div class="contact-note-box mt-4">
                         <h5>Before You Apply</h5>
                         <ul class="contact-list">
-                            <li><i class="icofont-check-circled"></i> 1-month paid trial (₹7,500)</li>
-                            <li><i class="icofont-check-circled"></i> Minimum 6-month retainer (₹60,000/month)</li>
+                            <li><i class="icofont-check-circled"></i> 1-month paid trial (₹5,000)</li>
+                            <li><i class="icofont-check-circled"></i> Minimum 6-month retainer (₹25,000/month)</li>
                             <li><i class="icofont-check-circled"></i> Limited to 3 clients at a time</li>
                         </ul>
                     </div>
@@ -188,7 +233,7 @@
                 <div class="section-divider divider-traingle"></div>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" data-form-source="contact-application">
 
                 <!-- Basic Details -->
                 <div class="form-section">
@@ -196,22 +241,22 @@
 
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <input type="text" placeholder="Full Name" required>
+                            <input type="text" name="name" placeholder="Full Name" required>
                         </div>
                         <div class="col-md-6">
-                            <input type="text" placeholder="Company / Brand Name">
+                            <input type="text" name="company" placeholder="Company / Brand Name">
                         </div>
                         <div class="col-md-6">
-                            <input type="text" placeholder="Your Role">
+                            <input type="text" name="role" placeholder="Your Role">
                         </div>
                         <div class="col-md-6">
-                            <input type="email" placeholder="Email Address" required>
+                            <input type="email" name="email" placeholder="Email Address" required>
                         </div>
                         <div class="col-md-6">
-                            <input type="text" placeholder="Phone / WhatsApp">
+                            <input type="text" name="phone" placeholder="Phone / WhatsApp">
                         </div>
                         <div class="col-md-6">
-                            <input type="text" placeholder="Website / Primary Platform">
+                            <input type="text" name="website" placeholder="Website / Primary Platform">
                         </div>
                     </div>
                 </div>
@@ -220,37 +265,37 @@
                 <div class="form-section">
                     <h4>Business Context</h4>
 
-                    <textarea placeholder="What does your business offer?"></textarea>
-                    <textarea placeholder="Who is your target audience?"></textarea>
-                    <textarea placeholder="Average ticket size or deal value"></textarea>
+                    <textarea name="business_offer" placeholder="What does your business offer?"></textarea>
+                    <textarea name="target_audience" placeholder="Who is your target audience?"></textarea>
+                    <textarea name="ticket_size" placeholder="Average ticket size or deal value"></textarea>
                 </div>
 
                 <!-- Content -->
                 <div class="form-section">
                     <h4>Content & Marketing</h4>
 
-                    <input type="text" placeholder="What do you need help with?">
-                    <textarea placeholder="What are you aiming to achieve?"></textarea>
-                    <input type="text" placeholder="Do you invest in SEO or marketing?">
+                    <input type="text" name="need_help_with" placeholder="What do you need help with?">
+                    <textarea name="goals" placeholder="What are you aiming to achieve?"></textarea>
+                    <input type="text" name="seo_investment" placeholder="Do you invest in SEO or marketing?">
                 </div>
 
                 <!-- Fit -->
                 <div class="form-section">
                     <h4>Fit & Commitment</h4>
 
-                    <label>Are you open to a 1-month trial @ ₹7,500?</label>
-                    <select>
+                    <label>Are you open to a 1-month trial @ ₹5,000?</label>
+                    <select name="open_to_trial">
                         <option>Yes</option>
                         <option>No</option>
                     </select>
 
                     <label>Comfortable with 6-month retainer?</label>
-                    <select>
+                    <select name="open_to_retainer">
                         <option>Yes</option>
                         <option>No</option>
                     </select>
 
-                    <textarea placeholder="Your business goals for next 6–12 months"></textarea>
+                    <textarea name="long_term_goals" placeholder="Your business goals for next 6–12 months"></textarea>
                 </div>
 
                 <div class="text-center mt-4">
@@ -331,6 +376,9 @@
                 <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                   <a href="services.html" >Services</a>
                 </li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                  <a href="stress-test.html" >Stress Test</a>
+                </li>
                 <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="450">
                   <a href="testimonial.html" >Testimonial</a>
                 </li>
@@ -368,8 +416,7 @@
           <div class="row">
             <div class="col-12">
               <p class="m-0 text-center">
-                &copy; 2026 All right reserved. Made with
-                <i class="icofont-heart"></i> by <a href="#">Jarvis</a>
+                &copy; 2026 Rruchi Shrimalli. Crafted for Humans, Built for Conversion.
               </p>
             </div>
           </div>
@@ -403,6 +450,8 @@
     <!--====== Custom js ======-->
     <script src="assets/js/custom.js"></script>
 
+    <!--====== Lead form handler ======-->
+    <script src="assets/js/forms.js"></script>
 </body>
 
 </html>
